@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'Gotham Pro Bold';
+	src: url('GothamPro-Bold.eot');
+	src: url('GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+	url('./assets/fonts/GothamPro-Bold.woff') format('woff'),
+	url('./assets/fonts/GothamPro-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.card-layout {
+	display: flex; 
+	justify-content: center;
+}
+
+.carousel {
+	margin-bottom: 85px;
+}
+
+.navbar {
+	margin-bottom: 20px;
+	border-radius: 5px;
+	background-color: rgba(218, 157, 255, 1) !important;
+}
+
+.social-net__image {
+	display: flex; 
+	justify-content: center;
+}
+
+.social-net__label {
+	text-align: center;
+	font-family: "Gotham Pro Bold";
+	color: white;
+}
+
+.social-net__background {
+	border-radius: 10px;
+	background-color: rgba(218, 157, 255, 1);
+}
+

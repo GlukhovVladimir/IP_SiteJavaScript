@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+	   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+	   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+	   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+	   ym(70428958, "init", {
+	        clickmap:true,
+	        trackLinks:true,
+	        accurateTrackBounce:true,
+	        webvisor:true
+	   });
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/70428958" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body class="container">
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Билеты73</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="index.html">Главная <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="cart.html">Купить билеты</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="about_us.html">О нас</a>
+		      </li>
+		    </ul>
+		    <form class="form-inline my-2 my-lg-0">
+		      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		    </form>
+		  </div>
+		</nav>	
+	</header>
+	<main>
+		<form class="buy-form" name="buy_form">
+			<h3>Заказ товара</h3>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-3">
+						<label for="exampleFormControlInput1">Email адрес</label>
+					</div>
+					<div class="col-sm-3">
+						<input name="customer_email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+					</div>
+				</div>
+			</div>	
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-3">
+						<label for="exampleFormControlInput1">Адрес</label>
+					</div>
+					<div class="col-sm-3">
+						<input name="customer_address" type="text" class="form-control" id="exampleFormControlInput1" placeholder="улица и дом">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-3">
+						<label for="exampleFormControlInput1">Номер телефон</label>
+					</div>
+					<div class="col-sm-3">
+						<input name="customer_phone" type="text" class="form-control" id="exampleFormControlInput1" placeholder="+79999990000">
+					</div>
+				</div>
+			</div>
+			
+			<button type="submit" class="btn btn-primary">Заказать</button>
+		</form>
+		<script src="assets/js/form.js"></script>
+	</main>
+	<footer>
+		<div class="container">
+			
+		</div>
+	</footer>
+</body>
+</html>
